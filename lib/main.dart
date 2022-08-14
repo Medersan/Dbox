@@ -25,8 +25,8 @@ class _MyAppState extends State<MyApp> {
         bottomNavigationBar: BottomNavigationBar(  
           items: [
             BottomNavigationBarItem(icon: Icon(Icons.home),label: ''),
-            BottomNavigationBarItem(icon: Icon(Icons.home),label: ''),
-            BottomNavigationBarItem(icon: Icon(Icons.home),label: ''),
+            BottomNavigationBarItem(icon: Icon(Icons.search),label: ''),
+            BottomNavigationBarItem(icon: Icon(Icons.person),label: ''),
           ],
         ),
         body: SafeArea(
